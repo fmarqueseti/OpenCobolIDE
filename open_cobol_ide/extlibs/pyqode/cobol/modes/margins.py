@@ -89,7 +89,7 @@ class MarginsMode(Mode):
                 self.editor.document().documentMargin()
             x_pos = round(metrics.width(' ') * pos) + offset
             painter.setPen(pen)
-            painter.drawLine(x_pos, 0, x_pos, 2 ** 16)
+            painter.drawLine(int(x_pos), 0, int(x_pos), 2 ** 16)
 
     def _on_key_pressed(self, event):
         Qt = QtCore.Qt
