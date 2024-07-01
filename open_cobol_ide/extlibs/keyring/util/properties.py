@@ -1,4 +1,4 @@
-from collections import Callable
+from collections.abc import Callable
 
 class ClassProperty(property):
     """

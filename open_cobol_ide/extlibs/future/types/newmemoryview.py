@@ -2,7 +2,7 @@
 A pretty lame implementation of a memoryview object for Python 2.6.
 """
 
-from collections import Iterable
+from collections.abc import Iterable
 from numbers import Integral
 import string
 

@@ -5,6 +5,7 @@ from future.utils import PY2, PY26
 __future_module__ = True
 
 from collections import *
+from collections.abc import *
 
 if PY2:
     from UserDict import UserDict

@@ -5,7 +5,7 @@ Why do this? Without it, the Python 2 bytes object is a very, very
 different beast to the Python 3 bytes object.
 """
 
-from collections import Iterable
+from collections.abc import Iterable
 from numbers import Integral
 import string
 import copy
